@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Chess-Game-TS/static/css/main.2513808f.chunk.css",
+    "main.js": "/Chess-Game-TS/static/js/main.a9f4c6ca.chunk.js",
+    "main.js.map": "/Chess-Game-TS/static/js/main.a9f4c6ca.chunk.js.map",
+    "runtime-main.js": "/Chess-Game-TS/static/js/runtime-main.726d9fd6.js",
+    "runtime-main.js.map": "/Chess-Game-TS/static/js/runtime-main.726d9fd6.js.map",
+    "static/js/2.8e5d0b81.chunk.js": "/Chess-Game-TS/static/js/2.8e5d0b81.chunk.js",
+    "static/js/2.8e5d0b81.chunk.js.map": "/Chess-Game-TS/static/js/2.8e5d0b81.chunk.js.map",
+    "static/js/3.10adafb4.chunk.js": "/Chess-Game-TS/static/js/3.10adafb4.chunk.js",
+    "static/js/3.10adafb4.chunk.js.map": "/Chess-Game-TS/static/js/3.10adafb4.chunk.js.map",
+    "index.html": "/Chess-Game-TS/index.html",
+    "static/css/main.2513808f.chunk.css.map": "/Chess-Game-TS/static/css/main.2513808f.chunk.css.map",
+    "static/js/2.8e5d0b81.chunk.js.LICENSE.txt": "/Chess-Game-TS/static/js/2.8e5d0b81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.726d9fd6.js",
+    "static/js/2.8e5d0b81.chunk.js",
+    "static/css/main.2513808f.chunk.css",
+    "static/js/main.a9f4c6ca.chunk.js"
+  ]
+}
