@@ -14,19 +14,30 @@ const App: React.FC = () => {
 
   const handleMove = (move: ShortMove) => {
     if (chess.move(move)) {
-      setTimeout(() => {
-        const moves = chess.moves();
 
-        if (moves.length > 0) {
-          const computerMove = moves[Math.floor(Math.random() * moves.length)];
-          chess.move(computerMove);
-          setFen(chess.fen());
-        }
-      }, 300);
+      if(chess.game_over()) {
+        chess.reset();
+        setFen(chess.fen());
+      } else {
+        setTimeout(() => {
+          const moves = chess.moves();
+  
+          if (moves.length > 0) {
+            const computerMove = moves[Math.floor(Math.random() * moves.length)];
+            chess.move(computerMove);
+            setFen(chess.fen());
+          }
+        }, 150);
+      }
 
       setFen(chess.fen());
     }
   };
+
+  const handleReset = () => {
+    chess.reset();
+    setFen(chess.fen());
+  }
 
   return (
     <div className="flex-center">
@@ -42,6 +53,7 @@ const App: React.FC = () => {
           })
         }
       />
+      <button className="button-reset" onClick={handleReset}>Reiniciar Jogo</button>
     </div>
   );
 };
