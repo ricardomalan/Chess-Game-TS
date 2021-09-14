@@ -11,4 +11,4 @@
   </tr>
 </table>
 
-[![license mit](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](https://github.com/ricardomalan/Chess-Game-TS/blob/master/LICENSE)
+[![license mit](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](https://github.com/ricardomalan/Chess-Game-TS/blob/main/LICENSE)
