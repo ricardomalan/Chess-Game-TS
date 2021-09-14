@@ -1,9 +1,44 @@
-.flex-center {
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-center-objetivo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 30%;
+}
+
+.flex-center-objetivo p {
+  width: 80%;
+  text-align: justify;
+}
+
+.flex-center-chess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.flex-center-pecas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+}
+
+.flex-center-pecas span {
+  height: 50%;
+  text-align: justify;
+  padding: 0 15px 0 0;
+  overflow: auto;
 }
 
 .button-reset {
